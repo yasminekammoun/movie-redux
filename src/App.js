@@ -5,7 +5,7 @@ import Header from './component/Header';
 import AddModal from './component/AddModal';
 import { connect } from 'react-redux';
 import {addMovie} from  './actions/movieActions'
-import {searchMovie} from './actions/movieActions'
+// import {searchMovie} from './actions/movieActions'
 
 class App extends Component {
   constructor(props){

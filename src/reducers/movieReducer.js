@@ -44,7 +44,7 @@ const MovieReducer = (state = initialState, action) => {
     case SEARCH_MOVIE:
       return {
         ...state,
-        filtredList: state.movies.filter(el => el.rating > state.rating)
+        filtredList: state.movies.filter(el => el.count >= state.rating && el.title.includes(state.keyword))
       };
     case REMOVE_MOVIE:
       return {

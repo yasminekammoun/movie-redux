@@ -35,4 +35,4 @@ const mapDispatchToProps = dispatch => {
     getkeyword: name=> dispatch(getName(name))
   }
 }
-export default connect(null,mapDispatchToProps)(Search);
+export default connect(null,mapDispatchToProps)(Search); 

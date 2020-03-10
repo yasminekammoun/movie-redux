@@ -11,8 +11,7 @@ export const addMovie= newMovie =>{
 }
 export const searchMovie= () =>{
     return{
-    type: SEARCH_MOVIE,
- 
+    type: SEARCH_MOVIE
     }
 }
 export const removeMovie=(id)=>{
